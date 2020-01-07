@@ -45,3 +45,17 @@ D:\NanoSoft_InterViews\CRUDAppWithChart_n_ExcelUP_n_Map\WebApi_ADO_DotNet\bin\De
 D:\NanoSoft_InterViews\CRUDAppWithChart_n_ExcelUP_n_Map\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.dll
 D:\NanoSoft_InterViews\CRUDAppWithChart_n_ExcelUP_n_Map\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.pdb
 D:\NanoSoft_InterViews\CRUDAppWithChart_n_ExcelUP_n_Map\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorTargetAssemblyInfo.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.deps.json
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.runtimeconfig.json
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.runtimeconfig.dev.json
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.dll
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.pdb
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.csprojAssemblyReference.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.csproj.CoreCompileInputs.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorAssemblyInfo.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorAssemblyInfo.cs
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.AssemblyInfoInputs.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.AssemblyInfo.cs
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorTargetAssemblyInfo.cache
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.dll
+D:\NanoSoft_InterViews\CRUDAppChartAndMap\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.pdb

@@ -19,8 +19,8 @@ namespace WebApi_ADO_DotNet.Models.Service
            oCustomer.Name = Convert.ToString(oReader["Name"]);
            oCustomer.Profession = Convert.ToString(oReader["Profession"]);
            oCustomer.MonthlyIncome = Convert.ToDouble(oReader["MonthlyIncome"]);
-            oCustomer.EducatonLevel = Convert.ToString(oReader["EducatonLevel"]);
-            oCustomer.Section = Convert.ToString(oReader["Section"]);
+            oCustomer.EducatonLevel = Convert.ToInt16(oReader["EducatonLevel"]);
+            oCustomer.Section = Convert.ToInt16(oReader["Section"]);
             oCustomer.Latitude = Convert.ToDouble(oReader["Latitude"]);
             oCustomer.Longitude = Convert.ToDouble(oReader["Longitude"]);
             return oCustomer;
@@ -85,6 +85,16 @@ namespace WebApi_ADO_DotNet.Models.Service
            Conn.Close();
            return oCustomers;
        }
+        public List<Customer> Gets(string sSQL)
+        {
+            List<Customer> oCustomers = new List<Customer>();
+            Conn.Open();
+            SqlDataReader oReader = null;
+            oReader = CustomerDA.Gets(sSQL, Conn);
+            oCustomers = CreateObjects(oReader);
+            Conn.Close();
+            return oCustomers;
+        }
         public Customer Get(int CustomerID)
         {
             Customer oCustomer = new Customer();

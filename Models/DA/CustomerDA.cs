@@ -37,6 +37,14 @@ namespace WebApi_ADO_DotNet.Models.DA
             oSqlCommand.CommandType = CommandType.Text;
             return oSqlCommand.ExecuteReader();
         }
+        public static SqlDataReader Gets(string sSQL, DBConnection Conn)
+        {
+            SqlCommand oSqlCommand = new SqlCommand();
+            oSqlCommand.CommandText = sSQL;
+            oSqlCommand.Connection = Conn.oConn;//connection Establish
+            oSqlCommand.CommandType = CommandType.Text;
+            return oSqlCommand.ExecuteReader();
+        }
         public static SqlDataReader Get(int CustomerID, DBConnection Conn)
         {
             SqlCommand oSqlCommand = new SqlCommand();

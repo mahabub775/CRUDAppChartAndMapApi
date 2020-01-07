@@ -55,5 +55,14 @@ namespace WebApi_ADO_DotNet.Controllers
             return _oCustomer;
         }
 
+
+        [HttpGet]
+        public async Task<ActionResult<Customer>> GetCustomerIncomeInfo()
+        {
+            _oCustomer = new Customer();
+            _oCustomer.SectionWiseInComeList = Customer.Gets("SELECT 0 AS CustomerID, '' AS Name, '' AS Profession, 0 As Latitude, 0 As Longitude,  0 As EducatonLevel, Section,  SUM(MonthlyIncome) As MonthlyIncome FROM Customer  Group by Section  Order by Section");
+            _oCustomer.EducationLavelWiseInComeList = Customer.Gets("SELECT 0 AS CustomerID, '' AS Name, '' AS Profession, 0 As Latitude, 0 As Longitude, 0 As Section, EducatonLevel,  SUM(MonthlyIncome) As MonthlyIncome FROM Customer A Group by EducatonLevel  Order by EducatonLevel");
+            return _oCustomer;
+        }
     }
 }
