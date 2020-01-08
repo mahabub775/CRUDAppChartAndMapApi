@@ -41,13 +41,14 @@ namespace WebApi_ADO_DotNet.Models.BO
             get
             {
                 //{id:"Dhaka",value:'Dhaka'},{id:"Chittagong",value:'Chittagong'},{id:"Khulna",value:'Khulna'},{ id: "Barishal",value: 'Barishal'},{ id: "Rajshahi",value: 'Rajshahi'},{ id: "Sylhet",value: 'Sylhet'}
-                if (this.Section == 1) { return "Dhaka"; }
-                else if (this.Section == 2) { return "Chittagong"; }
-                else if (this.Section == 3) { return "Khulna"; }
-                else if (this.Section == 4) { return "Barishal"; }
-                else if (this.Section == 5) { return "Rajshahi"; }
-                else if (this.Section == 6) { return "Sylhet"; }
-                else { return ""; }
+                return ((EnumSection)this.Section).ToString();
+                //if (this.Section == 1) { return "Dhaka"; }
+                //else if (this.Section == 2) { return "Chittagong"; }
+                //else if (this.Section == 3) { return "Khulna"; }
+                //else if (this.Section == 4) { return "Barishal"; }
+                //else if (this.Section == 5) { return "Rajshahi"; }
+                //else if (this.Section == 6) { return "Sylhet"; }
+                //else { return ""; }
             }
         }
         public string EducatonLevelSt
@@ -101,5 +102,16 @@ namespace WebApi_ADO_DotNet.Models.BO
         Insert = 1,
         Update = 2,
         Delete = 3
+    }
+
+    enum EnumSection
+    {
+        None = 0,
+        Dhaka = 1,
+        Chittagong = 2,
+        Khulna = 3,
+        Barishal = 4,
+        Rajshahi = 5,
+        Sylhet = 6
     }
 }
